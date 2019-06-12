@@ -4,9 +4,10 @@ logging:
 
 spring:
   activemq:
-    broker-url: tcp://localhost:61616
-    user: admin
-    password: admin
+    in-memory: true
+#    broker-url: tcp://localhost:61616
+#    user: admin
+#    password: admin
     packages:
       trust-all: true
   jms:
